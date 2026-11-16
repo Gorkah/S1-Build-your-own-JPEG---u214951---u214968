@@ -1,5 +1,7 @@
 import numpy as np
-def rgb_to_yub(rgb):
-    return 0;
-def yub_to_rgb(yub):
-    return 0;
+
+class ColorTranslation:
+    def rgb_to_yub(self, rgb):
+        return yub
+    def yub_to_rgb(self, yub):
+        return rgb
